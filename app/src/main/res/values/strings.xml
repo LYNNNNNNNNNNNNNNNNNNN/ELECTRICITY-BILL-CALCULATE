@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ELECTRICITY BILL CALCULATE</string>
+    <string name="electricity_bill_estimator">Electricity Bill Estimator</string>
+    <string name="number_of_units_used_kwh">Number of Units Used (kWh)</string>
+    <string name="rebate_percentage_0_5">Rebate Percentage (0.5)</string>
+    <string name="about">About</string>
+    <string name="calculate_bill" />
+    <string name="calculate_bill_description">Button to calculate the electricity bill</string>
+
+
+</resources>
+

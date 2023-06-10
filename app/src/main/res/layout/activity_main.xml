@@ -1,0 +1,87 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/electricity_bill_estimator"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#A34646"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextUnitsUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:hint="@string/number_of_units_used_kwh"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:background="#E6BA33"
+        android:layout_marginBottom="8dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextRebatePercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:hint="@string/rebate_percentage_0_5"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textSize="19sp"
+
+        android:maxLines="1"
+        android:background="#E6BA33"
+        android:layout_marginBottom="8dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="openNewPage"
+        android:text="@string/about"
+        android:textColor="#1B1A1A" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Bill"
+        android:backgroundTint="#E91E63"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="05dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:importantForAccessibility="yes"
+        android:textColor="#FFFFFF"
+        android:contentDescription="Button to calculate the electricity bill" />
+
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:textColor="#000000" />
+
+</LinearLayout>
